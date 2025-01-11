@@ -1,3 +1,92 @@
 body {
   width: 400px;
+  height: 600px;
+}
+#line1{
+  display: flex;
+  justify-content: center;
+  justify-self: stretch;
+}
+#line2 {
+  display: flex;
+  justify-content: center;
+  justify-self: stretch;
+}
+#line3 {
+  display: flex;
+  justify-content: center;
+  justify-self: stretch;
+}
+#line4 {
+  display: flex;
+  justify-content: center;
+  justify-self: stretch;
+}
+#line5 {
+  display: flex;
+  justify-content: center;
+  justify-self: stretch;
+}
+#zero {
+  color: black;
+  background-color: #d8d9db;
+  border: 1px solid black;
+  border-radius: 0px;
+  flex-grow: 3.5;
+  height: 102px;
+  font-size: 45px;
+}
+#clear {
+  color: black;
+  background-color: #d8d9db;
+  border: 1px solid black;
+  border-radius: 0px;
+  flex-grow: 2.3;
+  height: 102px;
+  font-size: 45px;
+}
+#delete {
+  color: black;
+  background-color: #d8d9db;
+  border: 1px solid black;
+  border-radius: 0px;
+  flex-grow: 1;
+  height: 102px;
+  font-size: 45px;
+}
+input {
+  color: white;
+  background-color: black;
+  border: none;
+  display: block;
+  width: 400px;
+  height: 90px;
+  font-size: 45px;
+  text-align: right;
+  width: 98%;
+  padding-right: 6px;
+}
+#divide, #X, #subtract, #add, #equal {
+  color: white;
+  background-color: #df974c;
+  border: 1px solid black;
+  border-radius: 0px;
+  flex-grow: 1;
+  height: 102px;
+  font-size: 50px;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+  color: black;
+  background-color: #d8d9db;
+  border: 1px solid black;
+  border-radius: 0px;
+  flex-grow: 1;
+  height: 102px;
+  font-size: 45px;
+}
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #clear:hover, #delete:hover, #zero:hover {
+background-color: #ebebeb;
+}
+#divide:hover, #X:hover, #subtract:hover, #add:hover, #equal:hover {
+  background-color: #dfb07e;
 }
